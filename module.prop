@@ -1,6 +1,6 @@
-id=mffm_facebook
-name=[Emoji] FacebookU14+NotoU15
+id=mffm_openmoji
+name=[Emoji] OpenmojiU14+NotoU15
 version=v2.1
 versionCode=3
 author=MFFM, @MrCarb0n
-description=Systemlessly replaces your default emojis with Facebook Unicode 14 emojis.
+description=Systemlessly replaces your default emojis with Openmoji Unicode 14 emojis.
