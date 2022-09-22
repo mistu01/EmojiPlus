@@ -1,6 +1,6 @@
-id=mffm_ios
-name=[Emoji] iOS15.4+EmojipediaU15+NotoU15
-version=v3.3
-versionCode=6
+id=mffm_facebook
+name=[Emoji] FacebookU14+NotoU15
+version=v2.1
+versionCode=3
 author=MFFM, @MrCarb0n
-description=Systemlessly replaces your default emojis with iOS 15.4 emojis.
+description=Systemlessly replaces your default emojis with Facebook Unicode 14 emojis.
