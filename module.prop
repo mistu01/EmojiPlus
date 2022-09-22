@@ -1,6 +1,6 @@
-id=mffm_LG
-name=[Emoji] TwemojiU14+NotoU15
-version=v2.1
-versionCode=3
+id=mffm_google
+name=[Emoji] NotoColorEmojiU15
+version=v1.0
+versionCode=1
 author=MFFM, @MrCarb0n
-description=Systemlessly replaces your default emojis with Twemoji 14.0.2 emojis.
+description=Systemlessly replaces your default emojis with Google's NotoColorEmoji Unicode 15 emojis.
