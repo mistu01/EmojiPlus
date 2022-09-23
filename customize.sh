@@ -1,9 +1,9 @@
-# ╭─────────────────────────────────────────╮
-# │        EmojiPlus | MFFM, @MrCarb0n      │
-# │  gitlab.com/MrCarb0n/NotoEmojiPlus_OMF  │
-# ├─────────────────────────────────────────┤
-# │      credit: @MrCarb0n, MFFM, OMF       │
-# ╰─────────────────────────────────────────╯
+# ╭──────────────────────────────────────────────────╮
+# │          EmojiPlus | MFFM, @MrCarb0n             │
+# │  https://github.com/charityrolfson433/EmojiPlus  │
+# ├──────────────────────────────────────────────────┤
+# │         credit: @MrCarb0n, MFFM, OMF             │
+# ╰──────────────────────────────────────────────────╯
 
 # enable debugging mode
 set -xv
@@ -43,12 +43,12 @@ set -xv
         am force-stop com.google.android.inputmethod.latin
 
 # change possible in-app emojis on boot time
-echo '# ╭─────────────────────────────────────────╮
-# │        EmojiPlus | MFFM, @MrCarb0n      │
-# │  gitlab.com/MrCarb0n/NotoEmojiPlus_OMF  │
-# ├─────────────────────────────────────────┤
-# │        credit: @MrCarb0n, MFFM.         │
-# ╰─────────────────────────────────────────╯
+echo '# ╭──────────────────────────────────────────────────╮
+# │          EmojiPlus | MFFM, @MrCarb0n             │
+# │  https://github.com/charityrolfson433/EmojiPlus  │
+# ├──────────────────────────────────────────────────┤
+# │         credit: @MrCarb0n, MFFM, OMF             │
+# ╰──────────────────────────────────────────────────╯
 
 (   
     until [ "$(resetprop sys.boot_completed)" = "1" -a -d "/data" ]; do
