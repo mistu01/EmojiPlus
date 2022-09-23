@@ -1,6 +1,6 @@
-id=mffm_google
-name=[Emoji] Noto Emoji Monochrome U15
-version=v1.1
-versionCode=2
+id=mffm_notocolor
+name=[Emoji] Noto Color Emoji U15
+version=v1.2
+versionCode=3
 author=MFFM, @MrCarb0n
-description=Systemlessly replaces your default emojis with Google's Monochrome Unicode 15 emojis.
+description=Systemlessly replaces your default emojis with Google's Noto Color U15 emojis.

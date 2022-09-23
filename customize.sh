@@ -43,28 +43,24 @@ set -xv
         am force-stop com.google.android.inputmethod.latin
 
 # change possible in-app emojis on boot time
-    {
-        echo '# ╭─────────────────────────────────────────╮'
-        echo '# │        EmojiPlus | MFFM, @MrCarb0n      │'
-        echo '# │  gitlab.com/MrCarb0n/NotoEmojiPlus_OMF  │'        
-        echo '# ├─────────────────────────────────────────┤'
-        echo '# │        credit: @MrCarb0n, MFFM.         │'
-        echo '# ╰─────────────────────────────────────────╯'
-        echo ''
-        echo '(   '
-        echo '    until [ "$(resetprop sys.boot_completed)" = "1" -a -d "/data" ]; do'
-        echo '        sleep 1'
-        echo '    done'
-        echo '    '
-        echo '    [ -d /data/fonts ] && rm -rf /data/fonts'
-        echo '    '
-        echo '    find /data/data -type f -iname "*emoji*.[ot]t[fc]" -print |'
-        echo '        while IFS= read -r EMJ; do'
-		echo "            for i in $EMJ; do"
-        echo "               cp -f /system/fonts/$S_EMJ \$i"
-		echo '            done'
-        echo '        done'
-        echo ')'
-    } > $MODPATH/service.sh
+echo '# ╭─────────────────────────────────────────╮
+# │        EmojiPlus | MFFM, @MrCarb0n      │
+# │  gitlab.com/MrCarb0n/NotoEmojiPlus_OMF  │
+# ├─────────────────────────────────────────┤
+# │        credit: @MrCarb0n, MFFM.         │
+# ╰─────────────────────────────────────────╯
+
+(   
+    until [ "$(resetprop sys.boot_completed)" = "1" -a -d "/data" ]; do
+        sleep 1
+    done
+    
+    [ -d /data/fonts ] && rm -rf /data/fonts
+    
+    F1="$(find /data/data -name *Emoji*.ttf)"
+        for i in $F1; do
+        cp -f /system/fonts/NotoColorEmoji.ttf $i
+    done
+)' > $MODPATH/service.sh
 
 rm -f $MODPATH/Emoji.ttf
