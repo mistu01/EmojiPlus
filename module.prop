@@ -1,6 +1,6 @@
-id=mffm_notocolor
-name=[Emoji] Noto Color Emoji U15
-version=v1.2
-versionCode=3
+id=mffm_facebook
+name=[Emoji] Facebook
+version=v2.2
+versionCode=13
 author=MFFM, @MrCarb0n
-description=Systemlessly replaces your default emojis with Google's Noto Color U15 emojis.
+description=Systemlessly replaces your default emojis with Facebook emojis.
