@@ -1,6 +1,6 @@
-id=mffm_facebook
-name=[Emoji] Facebook
-version=v2.2
-versionCode=13
+id=mffm_iOS15.4
+name=[Emoji] iOS15.4+Emojipedia15.0
+version=v3.4
+versionCode=43
 author=MFFM, @MrCarb0n
-description=Systemlessly replaces your default emojis with Facebook emojis.
+description=Systemlessly replaces your default emojis with iOS 15.4 emojis.
