@@ -1,6 +1,6 @@
-id=mffm_batman
-name=[Emoji] Batman Emoji
-version=v1.0
-versionCode=10
+id=mffmemoji_iOS17Beta4
+name=[Emoji] Apple Color Emoji [iOS17Beta4]
+version=v1.9
+versionCode=19
 author=MFFM
-description=Systemlessly replaces your default emojis with Batman emojis.
+description=Systemlessly replaces your default android emoji font with Apple Color Emoji.
