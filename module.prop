@@ -1,6 +1,6 @@
-id=mffmemoji_iOS17Beta4
-name=[Emoji] Apple Color Emoji [iOS17Beta4]
-version=v1.9
-versionCode=19
+id=mffmemoji
+name=[Emoji] 
+version=v1.0
+versionCode=10
 author=MFFM
-description=Systemlessly replaces your default android emoji font with Apple Color Emoji.
+description=Systemlessly replaces your default android emoji font with .....
