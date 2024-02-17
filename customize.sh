@@ -60,7 +60,8 @@ dataemojis() {
     done
 }
 
-dataemojis	
+dataemojis
+pm disable com.google.android.gms/com.google.android.gms.fonts.provider.FontsProvider	
 rm -rf /data/fonts
 rm -rf /data/data/com.google.android.gms/files/fonts/opentype/*ttf' > $MODPATH/service.sh
 
