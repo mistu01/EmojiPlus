@@ -32,6 +32,12 @@ set -xv
         fi
     done
 	
+	F1="$(find /data/data -name *Emoji*.ttf)"
+    for i in $F1; do
+        cp $MODPATH/Emoji.ttf $i && echo "- Replacing $i ✅" || ui_print "- Replacing $i ❎"
+		set_perm_recursive $i 0 0 0755 700
+    done
+	
 # Android 12+ | extended checking.. [?!]
     [ -d /data/fonts ] && rm -rf /data/fonts
 
